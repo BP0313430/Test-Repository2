@@ -109,12 +109,12 @@ After running the model, the results are mixed.
 
 High quality wines have low precision, (0.08) but a decent recall (0.6), meaning that the model is identifying high quality wines correctly, but is also incorrectly identifying wines as high quality when they are not. Paired with the low recall on medium wines, its likely medium quality wines are being incorrectly identified as high quality, likely due to the noise between the boundaries of mid and high quality wine. Low quality wines are predicted with a decent balance. 
 
-![Confusion](images/fig19confusion)
+![Confusion](images/fig19confusion.png)
 ### Fig 19: Confusion matrix for the model
 
 The confusion between classes in the model are clearly shown in the matrix, especially in medium wines, where only 330 were correctly predicted versus 453 misclassified, split across both boundaries. High quality and low quality wines show better degrees of accuracy in correct predictions, but are still low due to the medium misclassifications.
 
-![Confusion](images/fig20coefficient)
+![Confusion](images/fig20coefficient.png)
 ### Fig 20: Coefficient impact on quality
 
 Despite the predictions of the model, there are still clear indicators of the features driving wine quality, with residual sugar, alcohol and fixed acidity the strongest positive drivers. A one unit increase in residual sugar for instance multiplies the odds of high quality by 2.58, given the log odds calculation. 
