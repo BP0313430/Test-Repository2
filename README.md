@@ -23,6 +23,6 @@ Finally, the dataset itself was sourced from Kaggle (Kaggle, n.d.), where users 
 A pipeline was initialised in Colab using the Kaggle API to ensure the dataset remained up-to-date on each run. Standard libraries were loaded for analysis. The API approach future-proofs the ingestion, howver there is a risk of the publicly sourced dataset being moved or decommissioned. 
 
 
-### Histogram
-![Histogram](images/histogram-example-2.png )
+### Libraries Loaded
+![Libraries loaded]([images/images/Fig%201%20Libraries%20loaded.png])
 <!-- This us a comment-->
