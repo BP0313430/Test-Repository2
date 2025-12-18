@@ -24,5 +24,5 @@ A pipeline was initialised in Colab using the Kaggle API to ensure the dataset r
 
 
 ### Libraries Loaded
-![Libraries loaded]([images/Fig 1 Libraries loaded.png])
+![Libraries loaded](images/Fig 1 Libraries loaded.png)
 <!-- This us a comment-->
