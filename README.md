@@ -73,7 +73,7 @@ Matplotlib was used to visualize the quality bin distribution, with red and whit
 The data shows a split in quality across wine types, though high-quality red wines are scarce, a limitation that should be factored into the model. This quality split is borne out in reality though (GRTWines, 2024) and so perhaps a slightly fairer categorisation for the binning would be average, good and very good, with good replacing medium in the bin naming in future. 
 
 
-![Correlation Heatmap](images/fig13correlationheatmap)
+![Correlation Heatmap](images/fig13correlationheatmap.png)
 ### Fig 13: Correlation heatmap of physiochemical properties
 
 A correlation heatmap was generated, identifying collinearity, with colours chosedn for maximum visual impact. A strong positive correlation exists between free and total sulfur dioxide, although again this a known quality of wines (Pablo Giménez-Gómez, 2017), and it was decided to leave both in, but note the likely collinearity. Other positive indicators are also well known domain-valid relationships (residual sugar and density).
